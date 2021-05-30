@@ -1,0 +1,6 @@
+Chair 123 class sample.furniture.furniture.Chair 1 year
+Chair 123 class sample.furniture.furniture.Chair 1 year
+Bed 1234 class sample.furniture.furniture.Bed 2 year
+Wardrobe daasd class sample.furniture.furniture.Wardrobe 2 year
+Wardrobe daasd class sample.furniture.furniture.Wardrobe 2 year
+Door daasddasd class sample.furniture.furniture.Door 2 year
