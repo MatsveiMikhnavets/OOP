@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="882.0" prefWidth="1214.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas fx:id="canvas" height="837.0" layoutX="25.0" layoutY="30.0" width="997.0">
+         <effect>
+            <Blend />
+         </effect>
+      </Canvas>
+      <Button fx:id="buttonLine" layoutX="1052.0" layoutY="46.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Line">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="resetButton" layoutX="1051.0" layoutY="702.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Reset">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="circleButton" layoutX="1052.0" layoutY="104.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Circle">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="ellipseButton" layoutX="1052.0" layoutY="160.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Ellipse">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="rectangleButton" layoutX="1051.0" layoutY="221.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Rectangle">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="squareButton" layoutX="1051.0" layoutY="285.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Square">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="triangleButton" layoutX="1051.0" layoutY="345.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Triangle">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="cursorButton" layoutX="1051.0" layoutY="598.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Cursor">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="brokenLineButton" layoutX="1051.0" layoutY="406.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="122.0" text="Broken line">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
